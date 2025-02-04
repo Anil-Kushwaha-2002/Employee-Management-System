@@ -1,6 +1,7 @@
-# Django
+# Employee Management System
 Employee Management System, Using Python and Django
 
+# Python and Django
 •Developed a role-based Employee Management System that allows for efficient tracking and management of employee data.
 
 •Implemented CRUD operations for employee records, enabling admins to Add, View, Update, and Delete employee details.
