@@ -9,3 +9,12 @@ Employee Management System, Using Python and Django
 •Designed a responsive user interface using Python and Django, ensuring compatibility across both mobile and desktop platforms.
 
 •Integrated role-based access control to allow admins full access to operations while maintaining data security.
+# Command 
+Command To Install Django:
+pip install django
+Command To Check Django Version:
+python -m django --version
+Command To Check all the versions of installed modules:
+pip freeze
+
+
