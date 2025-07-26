@@ -16,7 +16,7 @@ A **role-based Employee Management System** built with **Python** and **Django**
 Run the following commands step by step to set up the Django project:
 
 ```bash
-##  Command To Create A Project & An App In Django
+# Command To Create A Project & An App In Django
 # Install Django
 pip install django
 
@@ -52,15 +52,14 @@ python manage.py runserver 0.0.0.0:8000
 
 ```
 ##  Command To Create A Project & An App In Django
-# Command To Create A Project:-
+-- Command To Create A Project:-
 `django-admin startproject nitman`
 
-# Command To Create An App:-
+-- Command To Create An App:-
 `python manage.py startapp nitapp`
-# where nitman is project name & nitapp is app name
+-- # where nitman is project name & nitapp is app name
 
-##  Command To Run A Project In Django
-# Command To Run A Project:-
+-- Command To Run A Project:-
 `python manage.py runserver`
 
 ```
