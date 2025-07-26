@@ -50,16 +50,6 @@ python manage.py runserver 8080
 python manage.py runserver 0.0.0.0:8000
 
 
-## Command 
-# Command To Install Django:-
-pip install django
-
-# Command To Check Django Version:-
-python -m django --version
-
-# Command To Check all the versions of installed modules:-
-pip freeze
-
 ##  Command To Create A Project & An App In Django
 
 # Command To Create A Project:-
@@ -88,16 +78,16 @@ If you want to change the server's IP, pass it along with the port, use:-
 python manage.py runserver 0.0.0.0:8000
 
 ```bash
-
+```
 # Change admin password using Django shell
- Steps:
+ Steps:-
 -- 1. Open a terminal.
 -- 2. Go to your Django project directory.
 -- 3. Run the Django shell:
 `python manage.py shell`
--- 4. Enter the following code:
-`from django.contrib.auth.models import User
-user = User.objects.get(username='your_admin_username')  # replace with your actual username
-user.set_password('newpassword')  # replace with your new password
+-- 4. Enter the following code:-
+from django.contrib.auth.models import User
+user = User.objects.get(username='your_admin_username')    # replace with your actual username
+user.set_password('newpassword')                           # replace with your new password
 user.save()
-print("Password changed successfully!")`
+print("Password changed successfully!")
