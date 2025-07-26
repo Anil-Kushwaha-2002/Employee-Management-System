@@ -16,6 +16,7 @@ A **role-based Employee Management System** built with **Python** and **Django**
 Run the following commands step by step to set up the Django project:
 
 ```bash
+##  Command To Create A Project & An App In Django
 # Install Django
 pip install django
 
@@ -26,13 +27,13 @@ python -m django --version
 pip freeze
 
 # Create a new Django Project
-django-admin startproject nitman
+django-admin startproject my_app
 
 # Navigate into the project directory
-cd nitman
+cd my_app
 
 # Create a new Django App
-python manage.py startapp nitapp
+python manage.py startapp my_app
 
 # Apply initial migrations
 python manage.py migrate
@@ -49,22 +50,20 @@ python manage.py runserver 8080
 # Run the server on a specific IP and port
 python manage.py runserver 0.0.0.0:8000
 
-
+```
 ##  Command To Create A Project & An App In Django
-
 # Command To Create A Project:-
-django-admin startproject nitman
+`django-admin startproject nitman`
 
 # Command To Create An App:-
-python manage.py startapp nitapp
-
+`python manage.py startapp nitapp`
 # where nitman is project name & nitapp is app name
-
 
 ##  Command To Run A Project In Django
 # Command To Run A Project:-
-python manage.py runserver
+`python manage.py runserver`
 
+```
 By default, this command starts the development server on the internal IP at port 8000.
 
 If you want to change the server's port, pass it as a command-line argument.
