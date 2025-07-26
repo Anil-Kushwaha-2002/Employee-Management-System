@@ -52,14 +52,14 @@ python manage.py runserver 0.0.0.0:8000
 
 ```
 ##  Command To Create A Project & An App In Django
--- Command To Create A Project:-
+- Command To Create A Project:-
 `django-admin startproject nitman`
 
--- Command To Create An App:-
+- Command To Create An App:-
 `python manage.py startapp nitapp`
--- # where nitman is project name & nitapp is app name
+- # where nitman is project name & nitapp is app name
 
--- Command To Run A Project:-
+- Command To Run A Project:-
 `python manage.py runserver`
 
 ```
@@ -79,13 +79,15 @@ python manage.py runserver 0.0.0.0:8000
 ```
 # Change admin password using Django shell
  Steps:-
--- 1. Open a terminal.
--- 2. Go to your Django project directory.
--- 3. Run the Django shell:
+- 1. Open a terminal.
+- 2. Go to your Django project directory.
+- 3. Run the Django shell:
 `python manage.py shell`
--- 4. Enter the following code:-
+- 4. Enter the following code:-
+``` 
 from django.contrib.auth.models import User
 user = User.objects.get(username='your_admin_username')    # replace with your actual username
 user.set_password('newpassword')                           # replace with your new password
 user.save()
 print("Password changed successfully!")
+```
