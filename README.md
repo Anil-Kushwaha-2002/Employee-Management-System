@@ -57,7 +57,7 @@ python manage.py runserver 0.0.0.0:8000
 
 - Command To Create An App:-
 `python manage.py startapp nitapp`
-- # where nitman is project name & nitapp is app name
+where nitman is project name & nitapp is app name
 
 - Command To Run A Project:-
 `python manage.py runserver`
